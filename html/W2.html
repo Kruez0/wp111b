@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>Introduction Form</h1>
+        <p>Fill out the form below!</p>
+        <hr>    
+        <form>
+        <fieldset> 
+            <label for="first-name"><input id="first-name" name="first-name"type="text" placeholder="First Name" required/><br/></label>
+            <label for="last-name"><input id="last-name" name="last-name" type="text" placeholder="Last Name" required/><br/></label>
+            <label for="Mobile-Number-or-email"><input id="Mobile-Number-or-email" name="Mobile-Number-or-email" type="text" placeholder="Mobile Number or email" required/><br/></label>
+            <label for="New-password"><input id="New-password" name="New Password" placeholder="New Password" type="text" required/><br/></label>
+        </fieldset>
+        <fieldset>
+            <label for="Blood-type">Blood Type <Select id="Blood-type" name="Blood-type" placeholder="Please select one">
+                <option value="">O</option>
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">AB</option>
+            </label>
+        </Select><br/>
+            <label for="photo">Upload a profile picture:   </label><input id="file" type="file" required>
+        </fieldset>
+        <fieldset>
+            <label for="Birthday">Birthday</br></label><select id="Birthday" name="Birthday">
+                <option value="">Jan</option>
+                <option value="1">Feb</option>
+                <option value="2">Mar</option>
+                <option value="3">Apr</option>
+                <option value="4">May</option>
+                <option value="5">Jun</option>
+                <option value="6">Jul</option>
+                <option value="7">Aug</option>
+                <option value="8">Sep</option>
+                <option value="9">oct</option>
+                <option value="10">Nov</option>
+                <option value="11">Dec</option>
+                </select>
+        
+            <label for="Birthday-date"></label><input type="number" placeholder="1" min="1" max="31">
+             <label for="Birthday-year"></label><input type="number" placeholder="2023" min="1905" max="2023">    
+        </fieldset>
+        <fieldset>
+            <label for="gender">Gender</br><input id="gender" type="radio" class="inline"/>Female</label>
+            <label for="gender"><input id="gender" type="radio" class="inline"/>Male</label>
+            <label for="gender"><input id="gender" type="radio" class="inline"/>Custom</label>
+        </fieldset>
+        <p>Thankyou for filling out the form!</p>
+        <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  body{
+    background-color:#c8cded;
+  }
+  p{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+    text-align: center;
+  }
+  h1{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  input[type="text"]{
+    width: 30vw;
+    max-width: 300px;
+    min-width: 150px;
+    margin: 0 auto;
+  }
+  hr{
+    width: 60vw;
+    max-width: 700px;
+    min-width: 300px;
+
+  }
+  input[type="submit"] {
+    display: block;
+    width: 25%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #7684e0;
+    border-color: white;
+    min-width: 150px;
+    color:white;
+  }
+  .photo{
+margin:auto;
+  }
+ 
+  input[type="file"]{
+    margin-left: 1em;
+  }
