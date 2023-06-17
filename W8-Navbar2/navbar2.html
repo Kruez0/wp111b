@@ -9,7 +9,8 @@
                 width:40px;
                 height:100%;
                 transition: 1s;
-                
+                display: inline-block;
+                float: left;
             }
             #nav a{
                 font-family: 'Segoe UI';
@@ -29,6 +30,9 @@
             #navMain a:hover{
                 background-color: #fa9ca5;
             }
+            #main{
+                padding: 10px 50px;
+            }
         </style>
     </head>
    <body>
@@ -41,18 +45,9 @@
        <p><a href="#Ex3">Example 3</a></p>
     </div>
     </div>
-    <div>
-       
+    <div id="main">
+       xxx
     </div>
-    <script>
-    function navWide(){
-        let nav=document.getElementById('nav')
-        nav.style.width='200px';
-    }
-    function navShort(){
-        let nav=document.getElementById('nav')
-        nav.style.width='40px';
-    }
-    </script>
+    <script src="navbar2.js"></script>
    </body>
 </html>
