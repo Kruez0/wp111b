@@ -12,15 +12,6 @@ class Matrix{
         }
         return new Matrix(a)
     }
-    /*var t = [];
-
-    for (var i = 0; i < this.m.length; i++) {
-        t[i] = [];
-        for (var j = 0; j < this.m[i].length; j++) {
-            t[i][j] = this.m[i][j] + b.m[i][j];
-        }
-    }
-    return new Matrix(t)*/
     mul(b){
         let c=[]
         for (let i = 0; i < this.m.length; i++) {
