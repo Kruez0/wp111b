@@ -4,7 +4,7 @@
 - https://www.youtube.com/watch?v=hYodWWpDTMU&ab_channel=Codegitate
 - https://www.youtube.com/watch?v=SgmNxE9lWcY&t=905s&ab_channel=SlayingTheDragon
 
-<<<<<<< HEAD
+
 There are 4 parts in my project:
 -Home 
 <div align="center">
@@ -26,6 +26,4 @@ There are 4 parts in my project:
 <img src="Images/questionnaire.jpg" width=30% height=30%>
 </div>
 
-=======
->>>>>>> f0683b0f58224e9b38a1cd36f016fb692fa98af5
 Thankyou!
