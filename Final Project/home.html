@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="final.css"/>
+    </head>
+   <body style="background-image:url(Images/Uno.jpg);background-size: contain; background-repeat: no-repeat; background-position: center;";>
+    <div id="nav" style="width: 250px;">
+       <div id="navMain">
+        <h2 id="navtitle">Welcome !</h2>
+        <p><a href="Home.html">Home</a></p>
+       <p><a href="aboutus.html">About Us</a></p>
+       <p><a href="characters.html">Characters</a></p>
+       <p><a href="questionnaire.html">Questionnaire</a></p>
+
+    </div>
+    <Style>
+        
+body{
+    margin: 0px;
+}
+#nav{
+    background-color:rgb(230, 180, 122);
+    height:100%;
+    transition: 1s;
+    display: inline-block;
+    float:left;
+}
+#nav a{
+    font-family: 'Segoe UI';
+    color:black;
+    white-space: nowrap;
+    text-decoration: none;
+}
+#navMain{
+    overflow: hidden;
+    font-size: 20px;
+    margin: 40px;
+}
+#navMain h2{
+    color: black;
+    font-size: 35;
+}
+#navMain a:hover{
+    background-color: rgb(217, 166, 108);
+}
+#main{
+    padding: 20px;
+ margin-left:0px;
+  margin-right:0px;
+    width: 100%;
+    height: 100%;
+    padding-left: 300px;
+}
+#navtitle{
+font-size: 50px;
+}
+.youkoso{
+    font-size:120;
+    margin-left: 1300px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    writing-mode: vertical-rl; 
+}
+@keyframes animate {
+        0% {
+          right: 0;
+        }
+        25%{
+            right:-10px;
+        }
+        50% {
+          right: -20px;
+        }
+        75%{
+            right:-10px
+        }
+        100% {
+          right: 0px;
+        }
+      }
+
+      .span {
+        width: 100px;
+        display: inline-block;
+        position: relative;
+        margin-top: 50px;
+      }
+      .span:nth-child(1) {
+        color: black;
+        animation: animate 1s linear 0.2s infinite;
+      }
+      .span:nth-child(2) {
+        color: #302e2e;
+        animation: animate 1s linear 0.4s infinite;
+      }
+      .span:nth-child(3) {
+        color: #52504f;
+        animation: animate 1s linear 0.6s infinite;
+      }
+      .span:nth-child(4) {
+        color: #6a6867;
+        animation: animate 1s linear 0.8s infinite;
+      }
+    </Style>
+    </div>
+    <div class="youkoso">
+        <span class="span">よ</span>
+        <span class="span">う</span>
+        <span class="span">こ</span>
+        <span class="span">そ</span>
+    </div>
+    <script src="final.js"></script>
+   </body>
+</html>
